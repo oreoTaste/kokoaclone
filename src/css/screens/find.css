@@ -1,0 +1,21 @@
+.find-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.recommended-friends {
+  padding: 5%;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.recommended-friends__title {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  margin: 100px 0;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+}

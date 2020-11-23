@@ -1,0 +1,36 @@
+.keyboard {
+  position: fixed;
+  background: rgba(256, 256, 256, 0.8);
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5% 3%;
+  height: 3rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+.keyboard__column:first-child {
+  width: 8%;
+}
+.keyboard__column:last-child {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.keyboard__column input {
+  background: rgba(256, 256, 256, 0.8);
+  width: 75%;
+  padding: 1% 3%;
+  border-radius: 3rem;
+  border: 1px solid black;
+  transition: all 0.1s ease-in-out;
+}
+.keyboard__column input:focus {
+  width: 90%;
+  position: absolute;
+  left: 0;
+  margin: 1.5%;
+  background-color: #fff;
+}

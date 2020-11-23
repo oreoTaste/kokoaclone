@@ -1,0 +1,22 @@
+.status {
+  position: relative;
+  width: 98%;
+  display: flex;
+  margin: 1%;
+}
+
+.status__column {
+  width: 33.33%;
+}
+.status__column:nth-child(2) {
+  text-align: center;
+}
+.status__column:nth-child(3) {
+  text-align: right;
+}
+.status__column:not(:nth-child(2)) i {
+  margin: 0% 1%;
+}
+.status__column:last-child i:last-of-type {
+  margin: 0;
+}
